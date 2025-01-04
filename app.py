@@ -1295,20 +1295,20 @@ def main():
         # Sidebar menu options after login
         menu_option = st.sidebar.radio(
             "Menu", 
-            ["Market Trend Analyser","Comparing multiple stocks", "Performing Category Analysis",  "Generate Personalized Reports", "Create a dashboard", "My Profile"]
+            ["Market Trend Analyser", "Create a dashboard","Comparing multiple stocks", "Performing Category Analysis",  "Generate Personalized Reports", "My Profile"]
         )
         
         # Handle each menu option
         if menu_option == "Market Trend Analyser":
             market_trends_analysis() 
+        elif menu_option == "Create a dashboard":
+            upload_dataset_section()
         elif menu_option == "Comparing multiple stocks":
             upload_and_compare_multiple_datasets()
         elif menu_option == "Performing Category Analysis":
             upload_and_display_file()  
         elif menu_option == "Generate Personalized Reports":
             create_custom_reports() 
-        elif menu_option == "Create a dashboard":
-            upload_dataset_section()
         elif menu_option == "My Profile":
             profile_section()
 
