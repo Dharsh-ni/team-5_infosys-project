@@ -1,0 +1,2 @@
+# Google Slides link
+google_slides_link = "https://docs.google.com/presentation/d/1qAOjNEB7aN8ZrXdmkPyRnUcNan1GFmb5/edit?usp=sharing&ouid=115834627924999085249&rtpof=true&sd=true"
